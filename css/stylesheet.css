@@ -1,0 +1,664 @@
+* {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+.ArtP {
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.ArtP p {
+    color: #B3B2B7;
+    font-size: 16.298px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 156.6%;
+    /* 25.523px */
+    letter-spacing: -0.163px;
+    width: 408px;
+}
+
+button {
+    background-color: #8B48BF;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    height: 44px;
+    width: 134px;
+}
+
+button:focus {
+    border: none;
+    outline: none;
+}
+
+/* botones:hover */
+.navHeader button:hover,
+.firstSectionButton button:hover,
+.thirdSection button:hover,
+.go:hover {
+    background-color: white;
+    border: solid 1px #8B48BF;
+    color: #8B48BF;
+}
+
+/* transición de botones */
+
+.navHeader button,
+.firstSectionButton button,
+.thirdSection button,
+.go,
+.fourthSection button {
+    transition: 1s;
+}
+
+
+.divNumbered {
+    align-items: center;
+    background: rgba(139, 72, 191, 0.30);
+    border-radius: 50px 0px 0px 50px;
+    display: flex;
+    height: 43px;
+    margin-top: 20px;
+}
+
+.firstDivNum {
+    align-items: center;
+    background: rgba(139, 72, 191, 0.30);
+    border-radius: 50px 0px 0px 50px;
+    display: flex;
+    height: 43px;
+    margin-top: 65px;
+}
+
+
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 64px;
+}
+
+.firstSectionButton {
+    text-align: end;
+}
+
+.firstSectionButton button {
+    color: white;
+}
+
+.firstSecSecondDiv {
+    display: flex;
+    width: 450px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 28px;
+}
+
+footer {
+    background-color: #1E1E26;
+}
+
+footer form {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 50px;
+}
+
+footer form input {
+    border-radius: 50px;
+    height: 44px;
+    margin-top: 40px;
+    width: 308px;
+}
+
+input {
+    transition: 1s;
+}
+
+input:hover {
+    background-color: #1E1E26;
+
+}
+
+input:hover::placeholder {
+    border-radius: 50px;
+    color: white;
+
+}
+
+.fourthSection {
+    align-items: center;
+    background-color: #3CDDF3;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.fourthH2 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    line-height: 119.6%;
+    /* 47.84px */
+    letter-spacing: -0.2px;
+    width: 324px;
+    margin: 40px 50px 50px;
+}
+
+.fourthSection button {
+    background-color: #232C50;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.go {
+    height: 42px;
+    margin-left: 9px;
+    margin-top: 40px;
+    width: 63px;
+}
+
+.h1 {
+    align-self: stretch;
+    color: #232C50;
+    text-align: right;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 114.6%;
+    /* 57.3px */
+    letter-spacing: -1.75px;
+}
+
+header .navHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 56px 64px;
+}
+
+/* h4 debajo de h1 en la primera section */
+.h4BelowH1 {
+    display: flex;
+    flex-direction: column;
+    height: 71px;
+    justify-content: center;
+    align-self: stretch;
+    color: #000;
+    text-align: right;
+    font-size: 16.558px;
+    font-style: normal;
+    line-height: 157.1%;
+    /* 26.013px */
+}
+
+.iconosFooter {
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 0px;
+}
+
+.iconosFooter a img {
+    height: 20px;
+    width: 20px;
+}
+
+.imgTenista {
+    position: relative;
+    top: 20px;
+}
+
+.logoYp {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logoFoot {
+    height: 25px;
+    margin-bottom: 25px;
+    padding: 10px;
+    width: 108px;
+}
+
+.rightsVpMobile {
+    color: #8C8C94;
+    font-size: 12.5px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+/* transition de los navs */
+.navSuperiorVPPC ul li a,
+.navDobleUl ul li a {
+    transition: 1s;
+}
+
+/* cambios de la transición */
+
+.navSuperiorVPPC ul li a:hover,
+.navDobleUl ul li a:hover {
+    font-size: 30px;
+}
+
+
+.navDobleUl {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 25px 0px;
+}
+
+.navDobleUl ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.navDobleUl ul li a {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: normal;
+}
+
+.navHamburguesa {
+    height: 60px;
+    width: 60px;
+}
+
+
+
+.nombreTenista {
+    color: #232C50;
+    font-size: 16.071px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 156.6%;
+    /* 25.168px */
+    letter-spacing: -0.161px;
+    margin: 20px 0px;
+}
+
+.pros {
+    background-color: #3CDDF3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.pros .prosh2,
+.prosp {
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* h2 dentro de la section pros */
+.pros .prosh2 {
+    padding-bottom: 25px;
+    padding-top: 40px;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 114.6%;
+    /* 41.256px */
+}
+
+/* p dentro de section pros */
+.pros .prosp {
+    padding-bottom: 40px;
+    padding-top: 25px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 151.1%;
+    /* 24.176px */
+}
+
+.pNum {
+    align-items: center;
+    background-color: #8B48BF;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    height: 43px;
+    line-height: normal;
+    margin-right: 10px;
+    text-align: center;
+    width: 70px;
+}
+
+.pNumT {
+    color: #323851;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.24px;
+}
+
+.secondSection {
+    display: flex;
+    flex-direction: column;
+    margin-top: 65px;
+}
+
+.tenistas {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.tenistaFotoPrinci {
+    height: 341.533px;
+    /* margin: 0px 40px 100px; */
+    width: 400px;
+}
+
+.texto {
+    color: #B9B9C1;
+    align-items: flex-end;
+    margin: 21px 28px 40px;
+}
+
+.textoTenista {
+    background-color: #FAFAFA;
+    height: 220px;
+    padding-top: 0;
+    max-width: 445px;
+}
+
+.thirdDiv {
+    color: #242E53;
+    display: flex;
+    flex-shrink: 0;
+    font-size: 30px;
+    justify-content: center;
+    letter-spacing: -0.392px;
+    line-height: 156.6%;
+    margin-top: 58px;
+    margin-bottom: 72px;
+    text-align: center;
+}
+
+.thirdSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thirdSection button {
+    margin-top: 45px;
+    margin-bottom: 58px;
+}
+
+
+
+
+
+
+
+
+@media(max-width:1200px) {
+
+
+
+    /*nav superior, viewport para Pc*/
+    .navSuperiorVPPC,
+    .navHeader div button,
+    .rightsVpPc,
+    .logoFootVpPc {
+        display: none;
+    }
+
+
+    /*en el Best of the month unicamente se ve Lebron*/
+    #sanyo,
+    #navarro {
+        display: none;
+    }
+
+    /* hover de botón go for it */
+    .fourthSection button:hover {
+        background-color: white;
+        border: solid 1px #232C50;
+        color: #232C50;
+    }
+
+    /* transition de botón go for it */
+    .fourthSection button {
+        transition: 1s;
+    }
+
+
+}
+
+@media(min-width:1201px) {
+
+    /* hover de botón go for it */
+    .fourthSection button:hover {
+        background-color: #8B48BF;
+        border: solid 1px white;
+        color: white;
+    }
+
+    /* transition de botón go for it */
+    .fourthSection button {
+        transition: 1s;
+    }
+
+
+    .divConTenistas {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .divNumbered,
+    .ArtP {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .firstSection {
+        display: flex;
+        justify-content: center;
+    }
+
+    .firstSecDiv {
+        display: flex;
+        flex-direction: row;
+        height: 460px;
+        justify-content: center;
+        width: 1090px;
+    }
+
+    footer {
+        align-items: center;
+        display: flex;
+        height: 247px;
+        justify-content: space-evenly;
+        order: 0;
+        width: 100%;
+    }
+
+
+
+    .footerForm {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        gap: 9px;
+        height: 48.518px;
+        justify-content: center;
+        order: 1;
+        width: 272.81px;
+    }
+
+    .iconosFooter {
+        align-items: flex-start;
+        display: flex;
+        flex-shrink: 0;
+        gap: 13px;
+        height: 22.054px;
+        order: -1;
+        width: 153.894px;
+    }
+
+    .logoFoot {
+        order: -3;
+    }
+
+    .logoFootVpPc {
+        display: flex;
+        margin-bottom: 78px;
+        order: -3;
+    }
+
+    .logoYp {
+        display: none;
+    }
+
+    .fourthSection {
+        align-items: center;
+        background-color: #8B48BF;
+        display: flex;
+        flex-direction: row;
+        height: 224px;
+        justify-content: space-around;
+        justify-items: center;
+        width: 100%;
+        padding: 64px 0px;
+    }
+
+    .fourthH2 {
+        display: row;
+        height: 96px;
+        justify-content: flex-start;
+        gap: 538px;
+        text-align: start;
+        width: 393px;
+    }
+
+    .fourthSection button {
+        background-color: white;
+        color: #8B48BF;
+
+    }
+
+    .navDobleUl {
+        display: flex;
+        width: 392.727px;
+        height: 141.143px;
+        align-items: flex-start;
+        gap: 219px;
+        flex-shrink: 0;
+    }
+
+    .navDobleUl ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .navHeader {
+        display: inline-flex;
+        padding: 65px 165px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navHamburguesa {
+        display: none;
+    }
+
+    .navSuperiorVPPC ul {
+        align-items: center;
+        display: flex;
+        gap: 28px;
+        justify-content: center;
+        list-style-type: none;
+    }
+
+    .navSuperiorVPPC ul li a {
+        color: #242E52;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: normal;
+        text-decoration: none;
+    }
+
+    .navVpPcFoot {
+        /* align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; */
+        order: -2;
+    }
+
+    .pros {
+        align-items: center;
+        background-color: #8B48BF;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 40px 0px;
+    }
+
+    .prosh2,
+    .prosp {
+        height: 88px;
+        width: 450px;
+    }
+
+    .rightsVpPc {
+        display: flex;
+        color: #8C8C94;
+        font-size: 12.5px;
+        font-style: normal;
+        font-weight: 500;
+        justify-content: end;
+        line-height: normal;
+        padding: 10px;
+        margin-bottom: 40px;
+    }
+
+    .secondSection {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 40px 0px;
+    }
+
+    .secondSection article {
+        height: 162px;
+        margin: 0px 50px 24px;
+        width: 530px;
+    }
+
+    .thirdSection {
+        display: flex;
+        justify-content: center;
+    }
+
+}
